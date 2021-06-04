@@ -12,3 +12,48 @@ the font is called 'nunito' and can be found on google fonts
 ***you can use it if you'd like or you can choose your own***
 
 */
+body{
+    background-color: gray;
+    font: 'nunito';
+    width: auto;
+    height: auto;
+    display: inline-block;
+    flex-direction: row;
+    text-align:center;
+    position: fixed;
+}
+
+.ul{
+    width: auto;
+    height: auto;
+    display:inline-flex;
+    text-align: right;
+    list-style-type: none;
+    flex-direction: row;
+    padding: 30px;
+    margin: 30px;
+    text-indent: 10px;
+    list-style-type: none;
+    background-color: black;
+ }
+
+.div-navigation{
+    list-style-type: none;
+}
+
+.container{
+    width: 50px;
+    height: 55px;
+
+}
+.h2{
+    flex-wrap: wrap;
+}
+.profile-img{
+    position:absolute;
+    display: inline-block;
+    border-image-width: 20px;
+}
+.h1{
+    background-color: black;
+}
